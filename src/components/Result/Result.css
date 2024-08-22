@@ -1,0 +1,47 @@
+  .result h1 {
+    font-size: 2em;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .result p {
+    font-size: 1.2em;
+    color: #f0e6ff;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    animation: textReveal 2s ease-in-out;
+  }
+  
+  .result img {
+    margin: 15px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .result img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes textReveal {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

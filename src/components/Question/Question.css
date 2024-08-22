@@ -1,0 +1,41 @@
+  
+  .question h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    animation: slideIn 0.8s ease;
+  }
+  
+  
+  .question img {
+    max-width: 80%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: transform 0.4s ease;
+  }
+  
+  .question img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
